@@ -5,9 +5,7 @@
  * main - Prints a Fixx Buzz program
  * Return: Always 0 (success)
  */
-
 int main(void)
-
 {
 
 	int x;
