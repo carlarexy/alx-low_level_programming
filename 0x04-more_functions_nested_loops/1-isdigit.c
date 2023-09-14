@@ -5,6 +5,7 @@
  * @x: The number to be checked
  * Return: 1 for a character that willl be a digit or 0 for any else
  */
+
 int _isdigit(int x)
 {
 
