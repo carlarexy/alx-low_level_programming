@@ -4,7 +4,7 @@
 
 void _memset(char *s, char c, int len);
 
-char *_strcpy(char *dest, char *src);
+char *'_strcpy'(char *dest, char *src);
 
 /**
  * main - check the code for Holberton School students.
