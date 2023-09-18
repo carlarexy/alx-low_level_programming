@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-void puts2(char *);
+#define LEN 10
+
+void _memset(char *s, char c, int len);
+
+char *_strcpy(char *dest, char *src);
 
 /**
  * main - check the code for Holberton School students.
@@ -9,9 +13,13 @@ void puts2(char *);
  */
 int main(void)
 {
+	char cpy[LEN + 1] = {0};
 	char *str;
+	char *ret;
 
-	str = "Holberton!\0Holberton";
-	puts2(str);
+	_memset(cpy, 'H', LEN);
+	str = "Holberton!";
+	ret = _strcpy(cpy, str);
+	printf("%s\n%s\n%s\n", str, cpy, ret);
 	return (0);
 }
