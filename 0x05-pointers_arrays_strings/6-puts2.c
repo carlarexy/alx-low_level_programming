@@ -5,7 +5,7 @@
  * @str: The strig to be treated
  * Return: void
  */
-void put2(char *str)
+void puts2(char *str)
 {
 
 	int i;

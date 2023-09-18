@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void print_rev(char *);
+void puts2(char *);
 
 /**
  * main - check the code for Holberton School students.
@@ -11,7 +11,7 @@ int main(void)
 {
 	char *str;
 
-	str = "Holberton!";
-	print_rev(str);
+	str = "Holberton!\0Holberton";
+	puts2(str);
 	return (0);
 }
